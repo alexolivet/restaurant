@@ -66,13 +66,6 @@ img {
   text-align: center;
 }
 
-#menu_top{
-  display: none;
-}
-#menu_down{
-  display: block;
-}
-
 
 
 
@@ -95,7 +88,12 @@ ul {
   position: relative;
   height: 100%;
 }
-
+#menu_top{
+  display: none;
+}
+#menu_down{
+  display: block;
+}
 
 .icon {
   background: url(http://s.cdpn.io/6035/glyphicons-halflings-white.png) no-repeat;
