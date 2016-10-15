@@ -42,30 +42,6 @@ img {
   vertical-align: sub;
 }
 
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.clr {
-  clr: both;
-}
-
-.align-left {
-  text-align: left;
-}
-
-.align-right {
-  text-align: right;
-}
-
-.align-center {
-  text-align: center;
-}
-
 
 
 
@@ -94,6 +70,32 @@ ul {
 #menu_down{
   display: block;
 }
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clr {
+  clr: both;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+
 
 .icon {
   background: url(http://s.cdpn.io/6035/glyphicons-halflings-white.png) no-repeat;
@@ -306,9 +308,9 @@ ul {
   .container h1{
     background-color: #25a25a;
     color: #722f37;
-     border-radius: 5px;
-     padding: 8px;
-     text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
   }
 
 }

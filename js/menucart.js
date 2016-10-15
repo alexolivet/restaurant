@@ -1,13 +1,13 @@
 var $addQuantity = $('.btn-quantity.plus'),
-    $minusQuantity = $('.btn-quantity.minus'),
-    $removeItem = $('.btn-remove');
+$minusQuantity = $('.btn-quantity.minus'),
+$removeItem = $('.btn-remove');
 
 $addQuantity.on('click',function(e){
   e.preventDefault();
   var $item = $(this).parents('.item'),
-      $quantityField = $item.find('.quantity_field'),
-      currentQuantity = $quantityField.val(),
-      nextQuantity = parseFloat(currentQuantity)+1;
+  $quantityField = $item.find('.quantity_field'),
+  currentQuantity = $quantityField.val(),
+  nextQuantity = parseFloat(currentQuantity)+1;
   
   $item.find('.current_quantity').html(nextQuantity);
   $quantityField.val(nextQuantity);
@@ -19,8 +19,8 @@ $addQuantity.on('click',function(e){
 $minusQuantity.on('click',function(e){
   e.preventDefault();
   var $item = $(this).parents('.item'),
-      $quantityField = $item.find('.quantity_field'),
-      currentQuantity = $quantityField.val();
+  $quantityField = $item.find('.quantity_field'),
+  currentQuantity = $quantityField.val();
   var prevQuantity = (currentQuantity <= 1) ? 0 : parseFloat(currentQuantity)-1;
 
   
@@ -42,7 +42,7 @@ var calculateTotal = function(  ) {
   var newSubTotal = 0;
   $('.quantity_field').each(function(){
     var quantity = $(this).val(),
-        price = $(this).data('price');
+    price = $(this).data('price');
     
     newSubTotal += parseFloat(quantity*price);
     
