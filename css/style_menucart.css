@@ -66,6 +66,14 @@ img {
   text-align: center;
 }
 
+#menu_top{
+  display: none;
+}
+#menu_down{
+  display: block;
+}
+
+
 
 
 /* menu cart styling */
@@ -73,6 +81,14 @@ html {
 
   font-family: 'Open Sans', sans;
 }
+
+.container { 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 600px; 
+}
+
+
 
 .icon {
   background: url(http://s.cdpn.io/6035/glyphicons-halflings-white.png) no-repeat;
@@ -183,6 +199,7 @@ html {
   position: relative;
   height: 100%;
 }
+
 .item .preview li {
   position: absolute;
   top: 0;
@@ -226,19 +243,7 @@ html {
 }
 
 .summary {
-  padding: 20px;
-  background: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.summary .meta-data {
-  border-right: 1px solid #eee;
-}
-.summary .total {
-  font-size: 3em;
-  text-align: center;
-  line-height: 65px;
+  display:none;
 }
 
 @media (max-width: 1024px) {
@@ -251,5 +256,47 @@ html {
     margin-left: 0;
   }
 
-  
+  #framecontent .total{
+    display: none;
+  }
+
+
+  #framecontent .btn-checkout{
+    display: none;
+  }
+
+  .container { 
+    width: 100%; 
+  }
+
+  .summary {
+    display: block;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .meta-data {
+    display: block;
+    border-right: 1px solid #eee;
+  }
+  .total {
+    font-size: 3em;
+    text-align: center;
+    line-height: 65px;
+  }
+
+  .btn-checkout{
+    display: block;
+  }
+
+  #menu_down{
+    display: none;
+  }
+
+  #menu_top{
+    display: block;
+  }
+
 }
