@@ -259,6 +259,8 @@ ul {
 
 /* modal styling */
 .modalDialog {
+  text-align: center;
+  font-size: 19px;
   position: fixed;
   padding: 40px;
   top: 10%;
@@ -289,12 +291,8 @@ ul {
 .close {
   background: #606061;
   color: #FFFFFF;
-  line-height: 25px;
   position: relative;
-  right: -12px;
   text-align: center;
-  top: -10px;
-  width: 24px;
   text-decoration: none;
   font-weight: bold;
   -webkit-border-radius: 12px;
@@ -337,9 +335,6 @@ ul {
   }
 
   .modalDialog{
-    display: inline-block;
-    top:10%;
-    left: 0;
     width: 100%;
     height: auto;
     margin-left: 0;}
