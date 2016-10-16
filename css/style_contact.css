@@ -5,8 +5,8 @@
 
 html {
  
-  font-family: Futura;
-   background-color: rgba(75,172,164,0.6);
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(75,172,164,0.6);
 }
 
 
@@ -17,7 +17,7 @@ body{
   height: 100%; 
   max-height: 100%; 
 }
-
+  
 .sidebar {
 	position: fixed;
   top: 0;
@@ -30,21 +30,32 @@ body{
   z-index: 1;
 }
 
+  
 .sidebar img {
   height:80px;
   margin-left: 10px;
   margin-top: 30px;
+  margin-bottom: 30px;
   
 }
 
 .sidebar ul {
   list-style-type: none;
-  border: 3px solid pink;
   background: #428bca;
-  float:left;
-
+  margin-left:10px;
 
 }
+.sidebar ul li{
+  padding:7px;
+}
+ 
+#social li{
+  float:left;
+  padding:10px;
+  margin-top:230%;
+}
+
+
 #wrapper {
   position: fixed;
   display:block;
@@ -70,9 +81,6 @@ body{
   margin-right:140px;
 }
 
-
-
-
 #contactform {
   position: relative;
   float:left;
@@ -81,11 +89,11 @@ body{
   margin-top: 220px;
   background-color: rgba(0,0,0,0.1); 
   
- }
+}
 
 #contactform div {
   padding: 2px;
- }
+}
 
 
 .max-width {
@@ -103,6 +111,13 @@ body{
   margin-top: 220px;
   padding-left: 30px;
 }
+
+a:link, a:hover, a:active   {
+  color:white; 
+  text-decoration:none;
+}
+
+
 
 
 
