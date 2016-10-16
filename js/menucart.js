@@ -52,13 +52,20 @@ var calculateTotal = function(  ) {
   
   var withTax = newSubTotal;
 
-  var newTotal = withTax+10;
+  var newTotal = withTax+0;
   
   $('.total .amount').html('$'+newTotal.toFixed(2));
   
 };
 
 calculateTotal();
+
+
+function openPopup() {
+  window.location.hash = 'openModal';
+}
+
+window.onload = openPopup;
 
 
 
