@@ -16,6 +16,11 @@ $(document).ready(function(){
 
 	header.css('background-image', backgrounds[0]);
 
+
+
+
+
+
 });
 
 
