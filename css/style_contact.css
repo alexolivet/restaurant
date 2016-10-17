@@ -52,7 +52,7 @@ body{
   margin-top:230%;
 }
 
-#wrapper{
+#header{
   position: fixed;
   display:block;
   width: 100%;
@@ -65,7 +65,7 @@ body{
   z-index: 1;
 }
 
-#wrapper h1{
+#header h1{
   margin-left:30px;
 }
 
@@ -78,11 +78,8 @@ body{
 }
 
 #contactForm{
-  position: relative;
   float:left;
-  padding: 50px;
-  margin-left: 230px;
-  margin-top: 220px;
+  padding: 20px 50px;
   background-color: rgba(0,0,0,0.1);   
 }
 
@@ -99,16 +96,23 @@ body{
 }
 
 .location{
-  padding-top: 50px;
-  position: relative;
   float:left;
-  margin-top: 220px;
-  padding-left: 30px;
+  padding: 20px 30px;
 }
 
 a:link, a:hover, a:active{
   color:white; 
   text-decoration:none;
+}
+
+#wrapper {
+  display: inline-block;
+  position: relative;
+  max-height:100%;
+  width:100%;
+  padding-top:220px;
+  padding-left:30px;
+  margin-left: 200px; 
 }
 
 
