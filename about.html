@@ -1,31 +1,63 @@
-<!--Force IE6 into quirks mode with this comment tag-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>restaurant</title>
-	<link rel='stylesheet' type="text/css" href='css/style_about.css'>
-	  <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:400,600'>
-	<script type="text/javascript">
-	/*** Temporary text filler function. Remove when deploying template. ***/
-	var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
-	function filltext(words){
-		for (var i=0; i<words; i++)
-			document.write(gibberish[Math.floor(Math.random()*3)]+" ")
-	}
-	</script>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style_about.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
 </head>
 <body>
+	<!-- left frame -->
 	<div id="framecontent">
 		<div class="innertube">
-			<h1>left frame</h1>
-			<h3>text here</h3>
+			<img src="images//logo-pizza.png">
+			<h1>DESTRA DEL PONTE</h1>
+			<p>"Serving Since 1991"</p>
+			<div class="info">
+				<ul>
+					<li><a href="index.html"> HOME</a></li>
+					<li><a href="about.html">ABOUT US</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="menucart.html">MENU</a></li>
+				</ul>
+			</div>
 		</div>
+
+		<div class="media">
+			<a href="https://www.facebook.com/supro.wilde" target="_blank">
+				<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+			</a>
+
+			<a href="mailto:suprowilde5@gmail.com" target="_blank">
+				<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+			</a>
+
+			<a href="https://www.youtube.com/channel/UC3CWXFrDWwVlXU3D_-j5siQ" target="_blank">
+				<i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+			</a>
+
+			<a href="https://www.tripadvisor.com/Restaurant_Review-g188590-d4782366-Reviews-Destra_del_Ponte-Amsterdam_North_Holland_Province.html" target="_blank">
+				<i class="fa fa-tripadvisor fa-3x" aria-hidden="true"></i>
+			</a>
+
+		</div>
+
 	</div>
+	<!-- main content -->
+
 	<div id="maincontent">
 		<div class="innertube">
-			<h1>place holder</h1>
-			<p><script type="text/javascript">filltext(50)</script></p>
-			<p style="text-align: center">credits: <a href="http://www.nycda.com">learned at NYCDA</a></p>
+			<h2>"About us"</h2>
+		</div>
+		<div class="textwrapper">
+			<p class="aboutus">
+				Since 1991, Lara, Alex, Subash and Twan have joined forces to bake the world's finest pizza's.<br>
+				Come have a taste, we're always open!
+			</p>
 		</div>
 	</div>
 </body>
