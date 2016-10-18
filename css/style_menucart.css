@@ -21,6 +21,7 @@ body{
   background: navy;
   color: white;
    z-index: 1;
+   opacity: 0.75;
 }
 
 #maincontent{
@@ -30,7 +31,7 @@ body{
   right: 0;
   bottom: 0;
   overflow: auto; 
-  background: #fff;
+
 }
 
 .innertube{
@@ -41,6 +42,26 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: sub;
+}
+
+/* page menu leftframe styling*/
+
+.info ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li{
+  margin: 25px;
+}
+
+li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li a:hover, a:active{
+  color: #0000ff;
 }
 
 
@@ -315,6 +336,23 @@ ul {
     height: auto;
     margin-left: 0;
   }
+
+  #framecontent ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #framecontent li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+      margin: 0;
+      
+      padding: 20px;
+  
+  }
+
 
 #maincontent{
   background: linear-gradient(to bottom, #009246 , white, red); 
