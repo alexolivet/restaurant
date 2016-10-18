@@ -103,6 +103,7 @@ body{
 a:link, a:hover, a:active{
   color:white; 
   text-decoration:none;
+  transition: 0.3s;
 }
 
 #wrapper {

@@ -18,14 +18,14 @@
 }
 img{
   height: 150px;
-  width: 100px;
-  opacity: 0.5;
+  width: 200px;
+
 }
 .info{
+  font-size: 20px;
   margin-left: -100px;
 }
 .innertube{
-  font-family: 'Bungee Inline', cursive;
   text-align: center;
 }
 
@@ -35,6 +35,7 @@ img{
 }
 
 li{
+  font-family: 'Open Sans', sans;
   margin: 25px;
 }
 
@@ -45,12 +46,11 @@ li a{
 
 li a:hover, a:active{
   color: #0000ff;
-  font-size: 30px;
 }
 
 p{
+  font-family: 'Bungee Inline', cursive;
 	position: relative;
-	bottom: 30px;
 	font-size: 18px;
 }
 
@@ -59,6 +59,10 @@ p{
   padding: 5px;
 }
 
+h1{
+  font-family: 'Bungee Inline', cursive;
+
+}
 h2{
 	font-family: 'Bungee Inline', cursive;
 	font-size: 50px;
@@ -82,7 +86,7 @@ i:hover{
     position: relative;
     left: 0;
     width: 100%;
-    height: 270px;
+    height: 210px;
     margin-left: 0;
     overflow: hidden;
   }
@@ -95,11 +99,16 @@ i:hover{
     margin-left: 0;
   }
 
+  img{
+    float: left;
+    position: relative;
+    left: 100px;
+  }
+
   .info{
     margin-left: 0px;
   }
   .innertube{
-    font-family: 'Bungee Inline', cursive;
     text-align: center;
   }
 
@@ -124,12 +133,16 @@ i:hover{
   }
   
   .media{
-    float: left;
+    float: right;
     width: 100px;
     position: relative;
-    bottom: 300px;
+    bottom: 220px;
   }
   
+  i{
+    margin: 3px;
+  }
+
 }
 
 @media all and(max-width: 480px){
