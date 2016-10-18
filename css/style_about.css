@@ -1,11 +1,12 @@
-*{
+* {
   box-sizing: border-box;
 }
+/* main page styling */
 
-html{
 
-  font-family: 'Raleway', sans-serif;
-  background-color: rgba(75,172,164,0.6);
+html {
+
+  font-family: 'Open Sans', sans;
 }
 
 
@@ -17,100 +18,34 @@ body{
   max-height: 100%;
 }
 
-.sidebar{
-	position: fixed;
+#framecontent{
+  position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 0; 
   left: 0;
   width: 200px;
   height: 100%;
   overflow: hidden;
-  background: #428bca;
-  z-index: 1;
+  background: navy;
+  color: white;
 }
 
-.sidebar img{
-  height:80px;
-  margin-left: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.sidebar ul{
-  list-style-type: none;
-  background: #428bca;
-  margin-left:10px;
-}
-
-.sidebar ul li{
-  padding:7px;
-}
-
-#social li{
-  float:left;
-  padding:10px;
-  margin-top:230%;
-}
-
-#header{
+#maincontent{
   position: fixed;
-  display:block;
-  width: 100%;
-  height: 220px;
   top: 0;
-  bottom: 0;
   left: 200px;
-  overflow: hidden;
-  background-color: rgba(75,172,164,0.9);
-  z-index: 1;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  background: #fff;
 }
 
-#header h1{
-  margin-left:30px;
+.innertube{
+  margin: 15px;
 }
 
-
-#opening, #mail{
-
-  display: inline-block;
-  margin-left:80px;
-  margin-right:140px;
-}
-
-#contactForm{
-  float:left;
-  padding: 20px 50px;
-  background-color: rgba(0,0,0,0.1);
-}
-
-#contactForm div{
-  padding: 2px;
-}
-
-.max-width{
-  width: 380px;
-}
-
-#message{
-  height: 200px;
-}
-
-.location{
-  float:left;
-  padding: 20px 30px;
-}
-
-a:link, a:hover, a:active{
-  color:white;
-  text-decoration:none;
-}
-
-#wrapper {
-  display: inline-block;
-  position: relative;
-  max-height:100%;
-  width:100%;
-  padding-top:220px;
-  padding-left:30px;
-  margin-left: 200px;
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: sub;
 }
