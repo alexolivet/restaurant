@@ -2,10 +2,10 @@ $(document).ready(function(){
 	$('input').click(function() {
 	    tmpValue = $(this).val();
 
-	    if ((tmpValue === 'Full Name') || 
-	        (tmpValue === 'Email') ||
-	        (tmpValue === 'Subject') ||
-	        (tmpValue === 'Message') ||
+	    if ((tmpValue === 'Full Name') 
+	    	|| (tmpValue === 'Email') 
+	        ||(tmpValue === 'Subject') 
+	    	|| (tmpValue === 'Message') 
 	      $(this).val('')
 	 
 	});

@@ -1,9 +1,8 @@
-* {
-  box-sizing: border-box;
-  
+*{
+  box-sizing: border-box; 
 }
 
-html {
+html{
  
   font-family: 'Raleway', sans-serif;
   background-color: rgba(75,172,164,0.6);
@@ -18,7 +17,7 @@ body{
   max-height: 100%; 
 }
   
-.sidebar {
+.sidebar{
 	position: fixed;
   top: 0;
   bottom: 0; 
@@ -30,21 +29,19 @@ body{
   z-index: 1;
 }
 
-  
-.sidebar img {
+.sidebar img{
   height:80px;
   margin-left: 10px;
   margin-top: 30px;
-  margin-bottom: 30px;
-  
+  margin-bottom: 30px;  
 }
 
-.sidebar ul {
+.sidebar ul{
   list-style-type: none;
   background: #428bca;
   margin-left:10px;
-
 }
+
 .sidebar ul li{
   padding:7px;
 }
@@ -55,8 +52,7 @@ body{
   margin-top:230%;
 }
 
-
-#wrapper {
+#header{
   position: fixed;
   display:block;
   width: 100%;
@@ -69,52 +65,54 @@ body{
   z-index: 1;
 }
 
-#wrapper h1 {
+#header h1{
   margin-left:30px;
 }
 
 
-#opening, #mail {
+#opening, #mail{
   
   display: inline-block;
   margin-left:80px;
   margin-right:140px;
 }
 
-#contactform {
-  position: relative;
+#contactForm{
   float:left;
-  padding: 50px;
-  margin-left: 230px;
-  margin-top: 220px;
-  background-color: rgba(0,0,0,0.1); 
-  
+  padding: 20px 50px;
+  background-color: rgba(0,0,0,0.1);   
 }
 
-#contactform div {
+#contactForm div{
   padding: 2px;
 }
 
-
-.max-width {
+.max-width{
   width: 380px;
 }
 
-#message {
+#message{
   height: 200px;
 }
 
-.map {
-  padding-top: 50px;
-  position: relative;
+.location{
   float:left;
-  margin-top: 220px;
-  padding-left: 30px;
+  padding: 20px 30px;
 }
 
-a:link, a:hover, a:active   {
+a:link, a:hover, a:active{
   color:white; 
   text-decoration:none;
+}
+
+#wrapper {
+  display: inline-block;
+  position: relative;
+  max-height:100%;
+  width:100%;
+  padding-top:220px;
+  padding-left:30px;
+  margin-left: 200px; 
 }
 
 
