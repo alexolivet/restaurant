@@ -164,6 +164,34 @@ i:hover{
   border-radius: 10px;
 }
 
+#pizzawrapper
+{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+}
+#pizza
+{
+  position: relative;
+  margin-top: 500px;
+  left: -100%;
+
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+
+#pizzaimg {
+  height: 300px;
+  width: 300px;
+}
+
+.hidden > #pizza { left: 120%; }
+
+input { margin-top: 100px; }
+
 @media all and(max-width: 480px){
   #framecontent{
     position: relative;
