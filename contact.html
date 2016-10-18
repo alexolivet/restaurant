@@ -24,7 +24,7 @@
 		</div>
 
 		<div id="header">
-			<h1>Contact Us </h1>
+			<h1 id="contact">Contact Us </h1>
 			<hr>
 			<div id="opening">
 				<h3> Opening hours </h3>
@@ -43,27 +43,15 @@
 		<div id="wrapper">	
 			<div id="contactForm">
 				<h2> Happy to hear from you </h2>
-				<p> 
-				We accept reservations. Call us or complete the form below.
-				</p>
-				<div>
-					<p> YOUR NAME </p>
-		      <input id="fullname" type="text"  class="max-width" placeholder="Full Name">		      
-		    </div>
-		    <div>
-		    	<p> YOUR EMAIL </p>
-		      <input id="email" type="text" class="max-width" placeholder="Email">		      
-		    </div>
-		    <div>
-		    	<p> SUBJECT </p>
-		      <input id="subject" type="text" class="max-width" placeholder="Subject">		            
-		    </div>
-		    <div>
-		    	<p> YOUR SUBJECT </p>
-		      <input id="message" type="text" class="max-width" placeholder="Message">		           
-		    </div>
-		    <a href="mailto:pizza@example.com?Subject=Reservation" target="_top"> <button> Send Mail </button></a>
-		        
+				<p> We accept reservations. Call us or complete the form below. </p>
+				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+			    Full Name: <br> <input id="fullname" type="text"  class="max-width" placeholder="Full Name"> <br>		      
+			    Email: <br> <input id="email" type="text" class="max-width" placeholder="Email">	<br>			      
+			   	Subject: <br> <input id="subject" type="text" class="max-width" placeholder="Subject">	<br>			            
+			    Message: <br> <input id="message" type="text" class="max-width" placeholder="Message"> <br>		           
+			    <input type="submit" value="Send">
+					<input type="reset" value="Reset">
+		  	</form>      
 	    </div>
 
 	    <div class="location">
