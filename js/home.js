@@ -17,11 +17,11 @@ $(document).ready(function(){
 	header.css('background-image', backgrounds[0]);
 	
 	if ($(window).width() < 1024) {
-		var backgrounds = ['url(images/img-12.jpg)'];
+		var backgrounds = ['url(images/img-13.jpg)'];
 		function nextBackground() {
 	    current++;
 	    current = current % backgrounds.length;
-	    header.css('background-image', backgrounds);
+	    header.css('background-image',backgrounds);
 	}
 	nextBackground();
 

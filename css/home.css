@@ -22,8 +22,8 @@ img{
 
 }
 .info{
-  font-size: 20px;
-  margin-left: -100px;
+  font-size: 25px;
+  margin-left: -80px;
 }
 .innertube{
   text-align: center;
@@ -45,18 +45,17 @@ li a{
 }
 
 li a:hover, a:active{
-  color: #0000ff;
+  color: #ff0000;
 }
 
 p{
   font-family: 'Bungee Inline', cursive;
-	position: relative;
-	font-size: 18px;
+  position: relative;
+  font-size: 18px;
 }
 
 .media{
   position: relative;
-  padding: 5px;
 }
 
 h1{
@@ -79,6 +78,11 @@ i{
 i:hover{
   color: #ff1a1a;
 }
+
+.footer{
+  display: none;
+}
+
 
 @media all and (max-width: 1024px) {
 	
@@ -106,6 +110,7 @@ i:hover{
   }
 
   .info{
+    font-size: 20px;
     margin-left: 0px;
   }
   .innertube{
@@ -143,7 +148,18 @@ i:hover{
     margin: 3px;
   }
 
+  .footer{
+    display: block;
+    text-align: center;
+    position:absolute;
+    top:400px;
+    width:100%;
+    height:60px;   
+    background:#000000;
+    color: #009900;
+  }
 }
+
 
 @media all and(max-width: 480px){
   #framecontent{
