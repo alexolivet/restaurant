@@ -3,7 +3,7 @@
 }
 
 html{
- background-color: rgba(75,172,164,0.6);
+ background-color: rgba(75,172,164,0.5);
 }
 
 
@@ -25,7 +25,7 @@ body{
   overflow: hidden; 
   background: navy;
   color: white;
-  opacity: 0.65;
+  opacity: 0.8;
 }
 
 .innertube img{
@@ -96,7 +96,7 @@ i:hover{
 }
 
 #header h1{
-  margin-left:30px;
+  margin-left:50px;
 }
 
 
@@ -110,7 +110,7 @@ i:hover{
 #contactForm{
   float:left;
   padding: 20px 50px;
-  background-color: rgba(0,0,0,0.1);   
+  background-color: rgba(75,172,164,0.5);   
 }
 
 #contactForm div{
@@ -144,6 +144,32 @@ a:link, a:hover, a:active{
   padding-top:220px;
   padding-left:30px;
   margin-left: 300px; 
+}
+
+h1, h2,h3{
+  font-family: 'Open Sans', sans;
+  color:  #009900;
+  width: 100%;
+}
+
+p{
+  color: white;
+}
+
+form {
+  color:navy;
+  opacity: 0.8;
+}
+
+#sendButton{
+  background-color: #009900;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
 }
 
 @media all and (max-width: 1024px) {
