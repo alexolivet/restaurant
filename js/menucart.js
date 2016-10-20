@@ -54,7 +54,7 @@ var calculateTotal = function(  ) {
 
   var newTotal = withTax+0;
   
-  $('.total .amount').html('$'+newTotal.toFixed(2));
+  $('.total .amount').html('&euro;'+newTotal.toFixed(2));
   
 };
 

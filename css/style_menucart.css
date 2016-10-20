@@ -77,6 +77,11 @@ img {
   display: inline-block;
 }
 
+
+.social_top{
+  display: none;
+}
+
 /* menu cart styling */
 html {
 
@@ -355,6 +360,10 @@ ul {
     margin-left: 0;
   }
 
+  #bg {
+ display: none;
+}
+
   #framecontent ul{
     margin: 0;
     padding: 0;
@@ -439,9 +448,20 @@ ul {
     }
 
     .media{
-      float: right;
-      padding: 10px;
+     display: none;
 
-    }
+   }
 
+   .social_top{
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
   }
+
+  .social_top a{
+   color: white;
+   text-decoration: none;
+ }
+
+}
