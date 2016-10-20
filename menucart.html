@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>Restaurant - Menu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <link rel='stylesheet' type="text/css" href='css/reset.css'>
+  <link rel='stylesheet' type="text/css" href='css/reset.css'>
   <link rel='stylesheet' type="text/css" href='css/style_menucart.css'>
   <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Open+Sans:400,600'>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
   <img src="images/pizza_background_1.jpg" id="bg" alt="Welcome to the menu">
@@ -14,16 +15,14 @@
   <div id="framecontent">
     <div class="innertube">
       <img src="images/logo-pizza.png" alt="logo" id="logo">
-         <div class="info">
+      <div class="info">
         <ul>
-          <li><a href="index.html"> HOME</a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT US</a></li>
           <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="menucart.html">MENU</a></li>
         </ul>
       </div>
-      <h3 id="menu_down">Please select item from the menu</h3>
-      <h3 id="menu_top">Please select item from the menu and checkout at the bottom of the page</h3>
+      <h3 id="menu_down">Select your meal.</h3>
       <!-- price summary left frame  -->
       <div class="total">
         <div class="taxes">
@@ -35,10 +34,29 @@
         <em>  Sub Total: </em> <span class="amount"></span>
       </div>
       <div>
-        <a href="#" class="btn-checkout">Checkout</a>
+        <a href="http://www.paypal.com" class="btn-checkout">Checkout</a>
       </div>
     </div>
+    <div class="media">
+      <a href="https://www.facebook.com/supro.wilde" target="_blank">
+        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="mailto:suprowilde5@gmail.com" target="_blank">
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UC3CWXFrDWwVlXU3D_-j5siQ" target="_blank">
+        <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+      </a>
+      
+      <a href="https://www.tripadvisor.com/Restaurant_Review-g188590-d4782366-Reviews-Destra_del_Ponte-Amsterdam_North_Holland_Province.html" target="_blank">
+        <i class="fa fa-tripadvisor fa-2x" aria-hidden="true"></i>
+      </a>    
+
+    </div>
   </div>
+   <h3 id="menu_top">Please select items from the menu and checkout at the bottom of the page.</h3>
   <!-- main content -->
   <div id="maincontent">
    <!-- background image -->
@@ -326,9 +344,9 @@
       </div>
     </div>
     <div>
-      <a href="#" class="btn-checkout">Checkout</a>
-    </div>
-  </div>
+      <a href="http://www.paypal.com" target="_blank"class="btn-checkout">Checkout</a>
+   </div>
+ </div>
 </div>
 </div>
 </div>
@@ -342,26 +360,26 @@
        <div class="details" data-price="10">
         <h3>
           Take Away or Delivery? 
-       </h3>
-       <p> We deliver your food right at your door for &euro;10.
-        <br>Please select if you want to have your food delivered to your door.<br>
-       Once selected, please click the close button to continue. Thank you.</p>
-       <div class="inner_container">
-        <div>
-          <p> Delivery @ &euro;10
-            <a href="#" class="btn-quantity plus">
-              <span class="icon icon-plus"></span>
-            </a>
-            <span class="center"><a href="#close" title="Close" class="close">CLOSE</a></span> 
-          </p> 
-            <p> For take away, Please click <a href="#close" title="Close" class="close">here</a></p>
-          <input type="hidden" class="quantity_field" name="quantity" value="0" data-price="10" />
-        </div>          
-      </div>
-    </div>
-  </li>
-</ul>
-</div>
+        </h3>
+        <p> We deliver your food right at your door for &euro;10.
+          <br>Please select if you want to have your food delivered to your door.<br>
+          Once selected, please click the close button to continue. Thank you.</p>
+          <div class="inner_container">
+            <div>
+              <p> Delivery @ &euro;10
+                <a href="#" class="btn-quantity plus">
+                  <span class="icon icon-plus"></span>
+                </a>
+                <span class="center"><a href="#close" title="Close" class="close">CLOSE</a></span> 
+              </p> 
+              <p> For take away, Please click <a href="#close" title="Close" class="close">here</a></p>
+              <input type="hidden" class="quantity_field" name="quantity" value="0" data-price="10" />
+            </div>          
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
 </div>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="js/menucart.js"></script>
