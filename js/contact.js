@@ -17,7 +17,7 @@ $(document).ready(function(){
     tmpValue = '';
   	});
 
-$('#contact').click (function() {
-    payNext();
-  });
+	$('#contact').click (function() {
+	    payNext();
+	});
 });
