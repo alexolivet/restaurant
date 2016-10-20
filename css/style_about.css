@@ -14,7 +14,7 @@
   overflow: hidden;
   background: navy;
   color: white;
-  opacity: 0.65;
+  z-index: 1;
 }
 
 img{
@@ -27,7 +27,7 @@ body{
 }
 
 .info{
-  font-size: 20px;
+  font-size: 25px;
   margin-left: -100px;
 }
 .innertube{
@@ -50,11 +50,12 @@ li a{
 }
 
 li a:hover, a:active{
-  color: #0000ff;
+  color: #ff1a1a;
+  transition: 0.3s;
 }
 
 p{
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Open Sans', cursive;
 	position: relative;
 	font-size: 18px;
 }
@@ -94,6 +95,7 @@ i:hover{
     height: 210px;
     margin-left: 0;
     overflow: hidden;
+    z-index: 1;
   }
 
   #maincontent{
@@ -102,6 +104,7 @@ i:hover{
     width: 100%;
     height: auto;
     margin-left: 0;
+    z-index: 1;
   }
 
   img{
@@ -154,14 +157,20 @@ i:hover{
   text-align: center;
 }
 
+.buttonwrapper {
+  text-align: center;
+}
+
 .aboutus {
   display: inline-block;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.85);
   margin: auto;
   padding: 15px;
   border: 5px solid #000;
+  max-width: 850px;
   border-radius: 10px;
+  z-index: 1;
 }
 
 #pizzawrapper
@@ -181,14 +190,29 @@ i:hover{
   -moz-transition: left 2s;
   -o-transition: left 2s;
   transition: left 2s;
+  z-index: -1;
 }
 
 #pizzaimg {
   height: 300px;
   width: 300px;
+  z-index: -1;
 }
 
-.hidden > #pizza { left: 120%; }
+#button {
+  background-color: #009900;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  outline: none;
+}
+
+.hidden > #pizza { left: 200%; }
 
 input { margin-top: 100px; }
 
@@ -200,6 +224,7 @@ input { margin-top: 100px; }
     height: 270px;
     margin-left: 0;
     overflow: hidden;
+    z-index: 1;
   }
 
   #maincontent{
@@ -208,6 +233,7 @@ input { margin-top: 100px; }
     width: 100%;
     height: auto;
     margin-left: 0;
+    z-index: 1;
   }
 
   .info{
@@ -244,5 +270,12 @@ input { margin-top: 100px; }
   }
 
   .aboutus {
+    display: inline-block;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding: 15px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    z-index: 1;
   }

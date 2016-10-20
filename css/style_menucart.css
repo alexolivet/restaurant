@@ -46,31 +46,51 @@ img {
 
 /* page menu leftframe styling*/
 
+#slogan{
+  font-family: 'Bungee Inline', cursive;
+}
+
 .info ul{
   list-style-type: none;
   overflow: hidden;
 }
 
-li{
+.info li{
   margin: 25px;
 }
 
-li a{
+.info li a{
   text-decoration: none;
   color: #ffffff;
 }
 
-li a:hover, a:active{
-  color: #0000ff;
+.info li a:hover, a:active{
+  color: #ff0000;
+}
+
+/* social icon leftframe styling*/
+
+.media{
+  padding: 10px;
+  margin: 10px;
+}
+
+.media a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
 }
 
 
-
+.social_top{
+  display: none;
+}
 
 /* menu cart styling */
 html {
 
   font-family: 'Open Sans', sans;
+  font-weight: bold;
 }
 
 #bg {
@@ -125,6 +145,19 @@ ul {
 
 .align-center {
   text-align: center;
+}
+
+.total{
+  background-color: red;
+  line-height: 170%;
+  border-radius: 5px;
+}
+
+#subtotal{
+  background-color: green;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 
@@ -278,6 +311,7 @@ ul {
 
 
 
+
 /* modal styling */
 .modalDialog {
   text-align: center;
@@ -337,86 +371,112 @@ ul {
     margin-left: 0;
   }
 
-  #framecontent ul{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+  #bg {
+   display: none;
+ }
 
-  #framecontent li{
-    list-style: none;
-    display: inline;
-    text-align: center;
-    margin: 0;
+ #framecontent ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#framecontent li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#slogan{
+  display: none;
+}
+
+#logo{
+  width: 25%;
+}
+
+
+#maincontent{
+  background: linear-gradient(to bottom, #009246 , white, red); 
+}
+
+
+#framecontent .total{
+  display: none;
+}
+
+
+#framecontent .btn-checkout{
+  display: none;
+}
+
+.container { 
+  width: 88%; 
+}
+
+.modalDialog{
+  width: 100%;
+  height: auto;
+  margin-left: 0;}
+
+  .summary {
+    display: block;
     padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .meta-data {
+    display: block;
+    border-right: 1px solid #eee;
+  }
+  .total {
+    font-size: 3em;
+    text-align: center;
+    line-height: 65px;
   }
 
-  #logo{
-   
-    width: 25%;
-    z-index: -1;
+  .btn-checkout{
+    display: block;
   }
 
-
-  #maincontent{
-    background: linear-gradient(to bottom, #009246 , white, red); 
-  }
-
-
-  #framecontent .total{
+  #menu_down{
     display: none;
   }
 
+  #menu_top{
+    display: block;
+    padding: 10px;
+    background-color: red;
+    margin: 0;
+  }
 
-  #framecontent .btn-checkout{
+  .preview img{
     display: none;
   }
 
-  .container { 
-    width: 88%; 
+  .btn-remove{
+    display: none;
   }
 
-  .modalDialog{
-    width: 100%;
-    height: auto;
-    margin-left: 0;}
+  .media{
+   display: none;
 
-    .summary {
-      display: block;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
-    .meta-data {
-      display: block;
-      border-right: 1px solid #eee;
-    }
-    .total {
-      font-size: 3em;
-      text-align: center;
-      line-height: 65px;
-    }
+ }
 
-    .btn-checkout{
-      display: block;
-    }
+ .social_top{
+  display: block;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
 
-    #menu_down{
-      display: none;
-    }
+.social_top a{
+ color: white;
+ text-decoration: none;
+}
 
-    #menu_top{
-      display: block;
-    }
-
-    .preview img{
-      display: none;
-    }
-
-    .btn-remove{
-      display: none;
-    }
-
-  }
+}

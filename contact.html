@@ -9,24 +9,42 @@
 	  <link rel='stylesheet' type="text/css" href='css/style_contact.css'>
 	</head>
 	<body>
-		<div class="sidebar">
-			<img src="images/logo-pizza.png" alt="logo">
-			<ul>
-				<li><a href="index.html"> HOME</a></li>
-				<li><a href="about.html">ABOUT US</a></li>
-				<li><a href="contact.html">CONTACT</a></li>
-				<li><a href="menucart.html">MENU</a></li>
-				</ul>
-			</ul>
+		<div id="framecontent">
+			<div class="innertube">
+				<img src="images//logo-pizza.png" alt="logo-pizza">
+				<h1>DESTRA DEL PONTE :</h1>
+				<p>"Serving Since 1991 :"</p>
+				<div class="info">
+					<ul>
+						<li><a href="index.html"> HOME</a></li>
+						<li><a href="about.html">ABOUT US</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href="menucart.html">MENU</a></li>
+					</ul>
+				</div>
+			</div>		
 
-			<ul id="social">
-      	<li> <a href="https://google.com" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a> </li>
-       	<li> <a href="https://google.com" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
-      </ul>
+			<div class="media">
+				<a href="https://www.facebook.com/supro.wilde" target="_blank">
+					<i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+				</a>
+
+				<a href="mailto:suprowilde5@gmail.com" target="_blank">
+					<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+				</a>
+
+				<a href="https://www.youtube.com/channel/UC3CWXFrDWwVlXU3D_-j5siQ" target="_blank">
+					<i class="fa fa-youtube fa-3x" aria-hidden="true"></i>
+				</a>
+				
+				<a href="https://www.tripadvisor.com/Restaurant_Review-g188590-d4782366-Reviews-Destra_del_Ponte-Amsterdam_North_Holland_Province.html" target="_blank">
+					<i class="fa fa-tripadvisor fa-3x" aria-hidden="true"></i>
+				</a>		
+			</div>
 		</div>
 
 		<div id="header">
-			<h1>Contact Us </h1>
+			<h1 id="contact">Contact Us </h1>
 			<hr>
 			<div id="opening">
 				<h3> Opening hours </h3>
@@ -45,27 +63,15 @@
 		<div id="wrapper">	
 			<div id="contactForm">
 				<h2> Happy to hear from you </h2>
-				<p> 
-				We accept reservations. Call us or complete the form below.
-				</p>
-				<div>
-					<p> YOUR NAME </p>
-		      <input id="fullname" type="text"  class="max-width" placeholder="Full Name">		      
-		    </div>
-		    <div>
-		    	<p> YOUR EMAIL </p>
-		      <input id="email" type="text" class="max-width" placeholder="Email">		      
-		    </div>
-		    <div>
-		    	<p> SUBJECT </p>
-		      <input id="subject" type="text" class="max-width" placeholder="Subject">		            
-		    </div>
-		    <div>
-		    	<p> YOUR SUBJECT </p>
-		      <input id="message" type="text" class="max-width" placeholder="Message">		           
-		    </div>
-		    <a href="mailto:pizza@example.com?Subject=Reservation" target="_top"> <button> Send Mail </button></a>
-		        
+				<p> We accept reservations. Call us or complete the form below. </p>
+				<form action="mailto:pizza@example.nl" method="post" enctype="text/plain">
+			    <br>Full Name <br> <input id="fullname" type="text"  class="max-width" placeholder="Full Name"> <br>		      
+			    <br>Email <br> <input id="email" type="text" class="max-width" placeholder="Email">	<br>			      
+			   	<br>Subject <br> <input id="subject" type="text" class="max-width" placeholder="Subject">	<br>			            
+			   <br> Message <br> <input id="message" type="text" class="max-width" placeholder="Message"> <br>	<br>	           
+			    <input id="sendButton" type="submit" value="Send"> 
+					
+		  	</form>      
 	    </div>
 
 	    <div class="location">
