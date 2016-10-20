@@ -46,6 +46,10 @@ img {
 
 /* page menu leftframe styling*/
 
+#slogan{
+  font-family: 'Bungee Inline', cursive;
+}
+
 .info ul{
   list-style-type: none;
   overflow: hidden;
@@ -146,6 +150,13 @@ ul {
 .total{
   background-color: red;
   line-height: 170%;
+  border-radius: 5px;
+}
+
+#subtotal{
+  background-color: green;
+  text-transform: uppercase;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -361,107 +372,111 @@ ul {
   }
 
   #bg {
- display: none;
+   display: none;
+ }
+
+ #framecontent ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-  #framecontent ul{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+#framecontent li{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
 
-  #framecontent li{
-    list-style: none;
-    display: inline;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-  }
+#slogan{
+  display: none;
+}
 
-  #logo{
-    width: 25%;
-  }
+#logo{
+  width: 25%;
+}
 
 
-  #maincontent{
-    background: linear-gradient(to bottom, #009246 , white, red); 
-  }
+#maincontent{
+  background: linear-gradient(to bottom, #009246 , white, red); 
+}
 
 
-  #framecontent .total{
-    display: none;
-  }
+#framecontent .total{
+  display: none;
+}
 
 
-  #framecontent .btn-checkout{
-    display: none;
-  }
+#framecontent .btn-checkout{
+  display: none;
+}
 
-  .container { 
-    width: 88%; 
-  }
+.container { 
+  width: 88%; 
+}
 
-  .modalDialog{
-    width: 100%;
-    height: auto;
-    margin-left: 0;}
+.modalDialog{
+  width: 100%;
+  height: auto;
+  margin-left: 0;}
 
-    .summary {
-      display: block;
-      padding: 20px;
-      background: #fff;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-      border-radius: 5px;
-      margin-bottom: 20px;
-    }
-    .meta-data {
-      display: block;
-      border-right: 1px solid #eee;
-    }
-    .total {
-      font-size: 3em;
-      text-align: center;
-      line-height: 65px;
-    }
-
-    .btn-checkout{
-      display: block;
-    }
-
-    #menu_down{
-      display: none;
-    }
-
-    #menu_top{
-      display: block;
-      padding: 10px;
-      background-color: red;
-      margin: 0;
-    }
-
-    .preview img{
-      display: none;
-    }
-
-    .btn-remove{
-      display: none;
-    }
-
-    .media{
-     display: none;
-
-   }
-
-   .social_top{
+  .summary {
     display: block;
-    float: right;
-    padding: 0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .meta-data {
+    display: block;
+    border-right: 1px solid #eee;
+  }
+  .total {
+    font-size: 3em;
+    text-align: center;
+    line-height: 65px;
+  }
+
+  .btn-checkout{
+    display: block;
+  }
+
+  #menu_down{
+    display: none;
+  }
+
+  #menu_top{
+    display: block;
+    padding: 10px;
+    background-color: red;
     margin: 0;
   }
 
-  .social_top a{
-   color: white;
-   text-decoration: none;
+  .preview img{
+    display: none;
+  }
+
+  .btn-remove{
+    display: none;
+  }
+
+  .media{
+   display: none;
+
  }
+
+ .social_top{
+  display: block;
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+
+.social_top a{
+ color: white;
+ text-decoration: none;
+}
 
 }
